@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    background: #e5f3ff;
+    
 }
 section { 
     position: relative;
@@ -54,7 +54,7 @@ section .slide:nth-child(5){
     margin: 40px;
     padding: 30px;
     background-color: #333;
-    color: cornsilk;
+    color: #e5f3ff;
     visibility: hidden;
     opacity: 0;
     transition: 0s;
@@ -80,6 +80,7 @@ section .slide:nth-child(5){
     justify-content: space-around;
     width: 1000px;
     transform-style: preserve-3d;
+    background: #e5f3ff;
 }
 .container .box {
     position: relative;
@@ -131,7 +132,7 @@ section .slide:nth-child(5){
     transition: 0.5s;
     transform: rotateX(90deg);
     opacity: 0;
-    color: #fff;
+    color: #e5f3ff;
     transition-delay: 0.2s;
 }
 .container .box:hover .contentBox {
